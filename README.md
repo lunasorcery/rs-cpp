@@ -8,9 +8,10 @@
 #include <cstdio>
 #include <rust.h>
 
-int main() {
+fn main() -> i32 {
 	let message = "Hello, World!";
 	puts(message);
+	return 0;
 }
 ```
 
