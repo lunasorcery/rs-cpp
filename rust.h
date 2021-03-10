@@ -1,3 +1,5 @@
+#pragma once
+
 // numeric types
 #include <cstdint>
 typedef int8_t i8;
