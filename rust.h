@@ -10,9 +10,8 @@ using u8  = uint8_t;
 using u16 = uint16_t;
 using u32 = uint32_t;
 using u64 = uint64_t;
-// todo: add f32 and f64
-// but in a manner such that they're only defined if
-// the compiler actually has IEEE754 float support.
+using f32 = float;
+using f64 = double;
 
 // keywords
 #define let auto const
